@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>House of Kays</title>
+        <link rel="icon" type="image/png" href="./hok-logo.svg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+
+        <!-- Navigation -->
+        <nav>
+            <div class="navbar" data-aos="fade-up" data-aos-delay="250" >
+                <div class="contianer nav-container">
+                    <input class="checkbox" type="checkbox" name="" id="checkbox"/>
+                    <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>
+                    <div class="logo">
+                        <a href="./index.html"><img src="./hok-logo.svg" alt=""></a>
+                     </div>
+                    <ul class="menu-items" id="menu-items">
+                        <li><a href="#about" id="nav-about">About</a></li>
+                        <!-- <li><a href="#services" id="nav-services">Services</a></li> -->
+                        <li><a href="#contact" id="nav-contact">Contact</a></li>
+                        <div class="menu-sub-items">
+                            <li> <a href="https://instagram.com/houseofkays/" target="_blank"><i class="fa-brands fa-instagram"></i></a></i> <a href="https://wa.me/27621540655?text=Hello%20I%20would%20like%20to%20book%20a%20consultation%20with%20you"><i class="fa-brands fa-whatsapp"></i></a></li>
+                            <!-- <li><a href="https://www.google.com/maps/place/Hatfield,+Pretoria,+0028,+South+Africa/@-25.7482297,28.2338045,16z/data=!3m1!4b1!4m5!3m4!1s0x1e95600c742e61e1:0x9075d2c9b4ee7098!8m2!3d-25.7487333!4d28.2380432" target="_blank">Johannesburg, South Africa</a></li> -->
+                            <li><a href="mailto:info@houseofkays.com">info@houseofkays.com</a></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Hero Section -->
+        <section class="hero" data-aos="fade-up" data-aos-delay="500" id="home">
+            <div class="headings">
+                <h1 class="main-heading" data-aos="fade-right" data-aos-delay="1000">House of Kays</h1>
+                <p class="sub-heading" data-aos="fade-left" data-aos-delay="1100">simple sophistication</p>
+                <a id="cta-1" href="https://bit.ly/houseofkays" target="_blank" data-aos="fade-up" data-aos-delay="1200">
+                    <button class="cta-1">
+                        Claim Your Crown
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="abt" data-aos="fade-up" data-aos-delay="500" id="about">
+                <div class="abt-1">
+                    <div class="abt-img" data-aos="zoom-in" data-aos-delay="600">
+                        <img class="" src="./assets/about-2.png" alt="">
+                    </div>
+                    <h3 class="abt-main-heading">Jemimah Kandemiiri</h3>
+                    <p class="abt-sub-heading">CEO & Founder</p>
+                </div>
+                <div class="abt-details">
+                    <!-- <h2 class="abt-main-heading-2">About</h2> -->
+                    <p class="abt-sub-heading-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum sed vivamus in id tellus sit ullamcorper a dignissim. Euismod scelerisque pellentesque at purus venenatis. Tincidunt quis viverra aliquet risus eget. Tellus nisl tortor pharetra, erat sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum sed vivamus in id tellus sit ullamcorper a dignissim. Euismod scelerisque pellentesque at purus venenatis. Tincidunt quis viverra aliquet risus eget. Tellus nisl tortor pharetra, erat sit.</p>
+                </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section class="contact" data-aos="fade-right" data-aos-delay="500" id="contact">
+            <div>
+                <form action="/subscribe" method="post">
+                    <h2 class="form-heading">Expert advice, directly in your inbox. Join our mailing list today!</h2>
+                    <p class="form-body">Stay in the know with the latest trends, tips, and tutorials. Sign up for our Queen's Only newsletter today!</p>
+
+                        <label for="name">Name</label>
+                        <div class="form-wrapper"><input type="text" id="name" name="name" required></div>
+                        <label for="email">Email</label>
+                        <div class="form-wrapper"><input type="email" id="email" name="email" required></div>
+                        <div class="form-wrapper"><button type="submit">Subscribe</button></div>
+                        <div class="checkbox-wrapper">
+                            <p>We will only ever send you high quality content</p>
+                        </div>
+                  </form>
+                  
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="contact-footer">
+                <!-- <div class="contact-item-second">House of Kays</div> -->
+                <div class="contact-item-third"> © House of Kays 2023</div>
+                <div class="contact-item-third">This website is a Kamlongera Solution</div>
+            </div>
+        </footer>
+
+        <!-- Script -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init()</script>
+        <script src="script.js"></script>
+    </body>
+</html> 
