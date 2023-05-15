@@ -23,8 +23,8 @@ li i {
 } */
 
 nav {
-  /* position: fixed; */
-  /* z-index: 20; */
+  position: fixed;
+  z-index: 20;
   width: 100%;
   background: #FFFFFF;
   display: flex;
@@ -66,7 +66,7 @@ nav {
   text-decoration: none;
   color:#FFFFFF;
   font-weight: 500;
-  font-siz2:2;
+  font-size:2;
   padding: 0.7rem;
 }
 
@@ -239,7 +239,7 @@ nav {
   background-position: center 25%;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 92vh;
+  height: 100vh;
   /* margin: 1rem; */
   padding: 10px 0px;
   object-fit: cover;
@@ -286,6 +286,7 @@ nav {
   box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 }
 
+/* About Section 1*/
 
 .abt {
   display: flex;
@@ -294,28 +295,21 @@ nav {
   align-items: center;  
   height: 100vh;
   /* padding: 10px 0px; */
-  background-color: black;
-  padding-top:1rem;
+  background-color: white;
+  padding-top:2rem;
+  /* margin-bottom: 2rem; */
 }
-
-/* .abt-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
 
 .abt-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
 }
 
 .abt-img {
   display: block;
-  width: 75%;
+  width: 60%;
   overflow: hidden;
 }
 
@@ -329,8 +323,8 @@ nav {
 }
 
 .abt-details {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -341,14 +335,66 @@ nav {
   font-family: "Nothing You Could Do";
   font-size: 1.875rem;
   font-weight: 500;
-  color: white;
+  color: black;
+  text-align: left;
 }
 
 .abt-sub-heading {
   font-family: "Mulish";
   font-size: 1.25rem;
   font-weight: 500;
+  color: black;
+  text-align: center;
+  padding: 1.25rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  line-height: 1.75rem;
+}
+
+
+/* About Section 2*/
+
+.abt-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  height: 100vh;
+  /* padding: 10px 0px; */
+  background-color: black;
+  padding-top:1rem;
+  /* margin-bottom: 2rem; */
+}
+
+.abt-2-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.abt-img-2 {
+  display: block;
+  width: 60%;
+  overflow: hidden;
+}
+
+.abt-img-2 img {
+  background-position: center 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.abt-details-2 {
   color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .abt-main-heading-2 {
@@ -356,20 +402,179 @@ nav {
   font-size: 1.875rem;
   font-weight: 500;
   color: white;
-  text-align: left;
 }
 
 .abt-sub-heading-2 {
+  font-size: 1.25rem;
+  font-family: "Mulish";
+  font-weight: 500;
+  color: white;
+}
+
+.abt-main-heading-2-2 {
+  font-family: "Nothing You Could Do";
+  font-size: 1.875rem;
+  font-weight: 500;
+  color: white;
+  text-align: left;
+}
+
+.abt-sub-heading-2-2 {
   font-family: "Mulish";
   font-size: 1.25rem;
   font-weight: 500;
   color: white;
   text-align: center;
   padding: 1.25rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  line-height: 1.75rem;
 }
 
+/* Courses */
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  /* height: 100vh; */
+  /* padding: 10px 0px; */
+  background-color: white;
+  padding-top:1rem;
+  /* margin-bottom: 2rem; */
+}
+
+.courses-main-heading {
+  font-family: "Nothing You Could Do";
+  font-size: 1.875rem;
+  font-weight: 500;
+  color: black;
+  text-align: left;
+}
+
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .courses-wrapper-2 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+} */
+
+.course-item {
+  width: 40%;
+  margin: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.course-item img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.course-name {
+  font-family: "Mulish";
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.course-btn {
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  margin: 0.5rem;
+  width: 50%;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.course-btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+
+/* Testimonials */
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  /* padding: 10px 0px; */
+  background-color: black;
+  padding-top:1rem;
+  /* margin-bottom: 2rem; */
+}
+
+.testimonials-main-heading {
+  font-family: "Nothing You Could Do";
+  font-size: 1.875rem;
+  font-weight: 500;
+  color: white;
+  text-align: left;
+}
+
+.testimonial-container {
+  display: inline-flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-item {
+  min-width: 25%;
+  margin: 10px;
+  border: 1px solid white;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+.testimonial-item img {
+  width: 100%;
+}
+
+.testimonial-description {
+  font-family: "Mulish";
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 1rem;
+  font-style: italic;
+  color: white;
+}
+
+.testimonial-name {
+  font-family: "Mulish";
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.5rem;
+  font-style: bold;
+  color: white;
+}
+
+
+
+/* Contact Us */
+
 .contact {
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 
 .contact-footer {
@@ -533,6 +738,12 @@ button[type="submit"]:hover {
   .abt-main-heading-2 {
     font-size: 2.25rem;
   }
+  .courses-main-heading-2 {
+    font-size: 2.25rem;
+  }
+  .testimonials-main-heading-2 {
+    font-size: 2.25rem;
+  }
   .abt-main-sub-heading-2 {
     font-size: 1.5rem;
   }
@@ -603,6 +814,12 @@ button[type="submit"]:hover {
   .abt-main-sub-heading-2 {
     font-size: 1.875rem;
   }
+  .courses-main-heading {
+    font-size: 1.875rem;
+  }
+  .testimonials-main-heading {
+    font-size: 1.875rem;
+  }
   .contact-item-first {
     font-size: 3rem;
   }
@@ -662,9 +879,16 @@ button[type="submit"]:hover {
     font-size: 3.75rem;
   }
   .abt-sub-heading {
-    font-size:2.25rem;
+    font-size:2rem;
+    line-height: 2rem;
   }
   .abt-main-heading-2 {
+    font-size: 3.75rem;
+  }
+  .courses-main-heading {
+    font-size: 3.75rem;
+  }
+  .testimonials-main-heading {
     font-size: 3.75rem;
   }
   .abt-main-sub-heading-2 {
