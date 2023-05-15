@@ -552,17 +552,21 @@ nav {
 }
 
 .testimonial-description {
-  font-family: "Mulish";
-  font-size: 1.25rem;
-  text-align: center;
-  padding: 1rem;
-  font-style: italic;
-  color: white;
+    font-family: "Mulish";
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding: 1.25rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    line-height: 1.75rem;
+    font-style: italic;
 }
 
 .testimonial-name {
   font-family: "Mulish";
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
   padding: 0.5rem;
   font-style: bold;
@@ -820,6 +824,12 @@ button[type="submit"]:hover {
   .testimonials-main-heading {
     font-size: 1.875rem;
   }
+  .testimonial-description {
+    font-size: 1.25rem;
+  }
+  .testimonial-name {
+    font-size: 1.25rem;
+  }
   .contact-item-first {
     font-size: 3rem;
   }
@@ -890,6 +900,12 @@ button[type="submit"]:hover {
   }
   .testimonials-main-heading {
     font-size: 3.75rem;
+  }
+  .testimonial-description {
+    font-size: 1.5rem;
+  }
+  .testimonial-name {
+    font-size: 1.5rem;
   }
   .abt-main-sub-heading-2 {
     font-size:2.25rem;
