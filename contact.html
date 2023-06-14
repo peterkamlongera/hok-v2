@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>House of Kay | Contact</title>
+        <link rel="icon" type="image/png" href="./hok-logo.svg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav>
+            <div class="navbar" data-aos="fade-up" data-aos-delay="250" >
+                <div class="contianer nav-container">
+                    <input class="checkbox" type="checkbox" name="" id="checkbox"/>
+                    <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>
+                    <div class="logo">
+                        <a href="./index.html"><img src="./hok-logo.svg" alt=""></a>
+                        </div>
+                    <ul class="menu-items" id="menu-items">
+                        <li><a href="./index.html" id="nav-home">Home</a></li>
+                        <li><a href="./about.html" id="nav-about">About</a></li>
+                        <li><a href="./blog.html" id="nav-services">Blog</a></li>
+                        <li><a href="./contact.html" id="nav-contact">Contact</a></li>
+                        <div class="menu-sub-items">
+                            <li> <a href="https://instagram.com/houseofkays/" target="_blank"><i class="fa-brands fa-instagram"></i></a></i> <a href="https://wa.me/27621540655?text=Hello%20I%20would%20like%20to%20book%20a%20consultation%20with%20you"><i class="fa-brands fa-whatsapp"></i></a></li>
+                            <!-- <li><a href="https://www.google.com/maps/place/Hatfield,+Pretoria,+0028,+South+Africa/@-25.7482297,28.2338045,16z/data=!3m1!4b1!4m5!3m4!1s0x1e95600c742e61e1:0x9075d2c9b4ee7098!8m2!3d-25.7487333!4d28.2380432" target="_blank">Johannesburg, South Africa</a></li> -->
+                            <li><a href="mailto:info@houseofkays.com">info@houseofkays.com</a></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Hero Section -->
+        <section class="hero-contact" data-aos="fade-up" data-aos-delay="500" id="home">
+            <div class="headings">
+                <h1 class="main-heading" data-aos="fade-right" data-aos-delay="1000">Contact</h1>
+                <p class="sub-heading" data-aos="fade-left" data-aos-delay="1100">Stay in the loop with everything House of Kay</p>
+                <!-- <a id="cta-1" href="https://bit.ly/houseofkays" target="_blank" data-aos="fade-up" data-aos-delay="1200">
+                    <button class="cta-1">
+                        Claim Your Crown
+                    </button>
+                </a> -->
+            </div>
+        </section>
+        <!-- Contact Us Section -->
+        <section class="contact" data-aos="fade-right" data-aos-delay="500" id="contact">
+            <div>
+                <form action="/subscribe" method="post">
+                    <h2 class="form-heading">Get in Touch</h2>
+                    <p class="form-body">Have a question or want to learn more? Fill out the form below and we'll get back to you as soon as possible.</p>
+                    
+                  
+                    <label for="name">Name</label>
+                    <div class="form-wrapper"><input type="text" id="name" name="name" required></div>
+                  
+                    <label for="email">Email</label>
+                    <div class="form-wrapper"><input type="email" id="email" name="email" required></div>
+                  
+                    <label for="gender">Gender</label>
+                    <div class="form-wrapper">
+                      <select id="gender" name="gender" required>
+                        <option value="">Select gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                      </select>
+                    </div>
+                  
+                    <label for="age">Age</label>
+                    <div class="form-wrapper"><input type="number" id="age" name="age" required></div>
+                  
+                    <label for="course">Course of Interest</label>
+                    <div class="form-wrapper">
+                      <select id="course" name="course" required>
+                        <option value="">Select course</option>
+                        <option value="modeling">Modeling</option>
+                        <option value="professional-deportment">Professional Deportment</option>
+                        <option value="fitness-modelling">Fitness Modelling</option>
+                        <option value="make-up-for-models">Make Up For Models</option>
+                        <option value="photography-posing">Photography & Posing</option>
+                        <option value="runway-modeling">Runway Modeling</option>
+                        <option value="wardrobe-styling">Wardrobe & Styling</option>
+                        <option value="pagentry-prep">Pagentry Prep</option>
+                      </select>
+                    </div>
+                  
+                    <label for="professional-experience">Have you modeled professionally before?</label>
+                    <div class="form-wrapper">
+                      <select id="professional-experience" name="professional-experience" required>
+                        <option value="">Select option</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        <option value="kind-of">Kind of</option>
+                      </select>
+                    </div>
+                  
+                    <label for="service">Service of Most Interest</label>
+                    <div class="form-wrapper">
+                      <select id="service" name="service" required>
+                        <option value="">Select service</option>
+                        <option value="model-training">Model Training</option>
+                        <option value="1-on-1-coaching">1-on-1 Coaching</option>
+                        <option value="portfolio-prep">Portfolio Prep</option>
+                        <option value="bootcamp">Bootcamp</option>
+                      </select>
+                    </div>
+                  
+                    <label for="referral-source">Where did you hear about us?</label>
+                    <div class="form-wrapper">
+                      <select id="referral-source" name="referral-source" required>
+                        <option value="">Select option</option>
+                        <option value="instagram">Instagram</option>
+                        <option value="word-of-mouth">WoM (Word of Mouth)</option>
+                        <option value="referral">Referral</option>
+                        <option value="ads">Ads</option>
+                        <option value="other">Other</option>
+                      </select>
+                    </div>
+                  
+                    <label for="photoshoot">Have you done a photoshoot before?</label>
+                    <div class="form-wrapper">
+                      <select id="photoshoot" name="photoshoot" required>
+                        <option value="">Select option</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                      </select>
+                    </div>
+                  
+                    <label for="message">Message</label>
+                    <div class="form-wrapper"><textarea id="message" name="message" required></textarea></div>
+                  
+                    <div class="form-wrapper"><button type="submit">Send message</button></div>
+                  
+                    <div class="checkbox-wrapper">
+                      <p>We will only ever send you high-quality content.</p>
+                    </div>
+                  </form>
+                  
+                    
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <div class="contact-footer">
+                <!-- <div class="contact-item-second">House of Kays</div> -->
+                <div class="contact-item-third"> © House of Kays 2023</div>
+                <div class="contact-item-third">This website is a Kamlongera Solution</div>
+            </div>
+        </footer>
+
+        <!-- Script -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init()</script>
+        <script src="script.js"></script>
+    </body>
+</html>

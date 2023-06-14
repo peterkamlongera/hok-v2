@@ -245,6 +245,50 @@ nav {
   object-fit: cover;
 }
 
+.hero-about {
+  background-image: url('./assets/hero-13.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  background-position: center 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* margin: 1rem; */
+  padding: 10px 0px;
+  object-fit: cover;
+}
+
+.hero-blog {
+  background-image: url('./assets/hero-11.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  background-position: center 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* margin: 1rem; */
+  padding: 10px 0px;
+  object-fit: cover;
+}
+.hero-contact {
+  background-image: url('./assets/hero-12.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  background-position: center 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* margin: 1rem; */
+  padding: 10px 0px;
+  object-fit: cover;
+}
+
 .headings {
   display: flex;
   flex-direction: column;
@@ -259,11 +303,25 @@ nav {
   color: white;
 }
 
+.main-heading-about {
+  font-family: "Nothing You Could Do";
+  font-size: 1.875rem;
+  font-weight: 500;
+  color: black;
+}
+
 .sub-heading {
   font-family: "Mulish";
   font-size: 1.25rem;
   font-weight: 500;
   color: white;
+}
+
+.sub-heading-about {
+  font-family: "Mulish";
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: black;
 }
 
 .cta-1 {
@@ -278,6 +336,7 @@ nav {
   cursor: pointer;
 }
 
+
 .cta-1:hover {
   background-color: transparent;
   color: #FFD100;
@@ -285,6 +344,27 @@ nav {
   border-radius: 1rem;
   box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 }
+
+.cta-2 {
+  font-family: "Mulish";
+  font-size: 0.875rem;
+  border: solid white 0.1rem;
+  color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.cta-2:hover {
+  background-color: transparent;
+  color: #FFD100;
+  border: solid #FFD100 0.1rem;
+  border-radius: 1rem;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
 
 /* About Section 1*/
 
@@ -297,6 +377,7 @@ nav {
   /* padding: 10px 0px; */
   background-color: white;
   padding-top:2rem;
+  padding-bottom:2rem;
   /* margin-bottom: 2rem; */
 }
 
@@ -362,8 +443,42 @@ nav {
   height: 100vh;
   /* padding: 10px 0px; */
   background-color: black;
-  padding-top:1rem;
+  padding-top:2rem;
+  /* padding-bottom:2rem; */
   /* margin-bottom: 2rem; */
+}
+
+.abt-page-2 {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;  
+  height: 100%;
+  /* padding: 10px 0px; */
+  background-color: black;
+  padding-top:2rem;
+  /* padding-bottom:2rem; */
+  /* margin-bottom: 2rem; */
+}
+
+.abt-page-details-2 {
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 50vw; */
+}
+
+.abt-page-2-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  flex: 1 1 768px;
 }
 
 .abt-2-1 {
@@ -372,6 +487,7 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
 
 .abt-img-2 {
   display: block;
@@ -421,7 +537,7 @@ nav {
 
 .abt-sub-heading-2-2 {
   font-family: "Mulish";
-  font-size: 1.25rem;
+  font-size: 0.75rem;
   font-weight: 500;
   color: white;
   text-align: center;
@@ -441,7 +557,8 @@ nav {
   height: auto;
   /* padding: 10px 0px; */
   background-color: white;
-  padding-top:1rem;
+  padding-top:2rem;
+  padding-bottom:2rem;
   margin-bottom: 2rem;
 }
 
@@ -526,8 +643,6 @@ nav {
 }
 
 
-
-
 /* Testimonials */
 
 .testimonials {
@@ -538,7 +653,8 @@ nav {
   height: auto;
   /* padding: 10px 0px; */
   background-color: black;
-  padding-top:1rem;
+  padding-top:2rem;
+  padding-bottom:2rem;
   /* margin-bottom: 2rem; */
 }
 
@@ -561,7 +677,7 @@ nav {
 .testimonial-item {
   min-width: 25%;
   margin: 10px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -597,12 +713,93 @@ nav {
   color: white;
 }
 
+/* Blog Post Articles */
+
+.blog-posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  /* padding: 10px 0px; */
+  background-color: black;
+  padding-top:2rem;
+  padding-bottom:2rem;
+  /* margin-bottom: 2rem; */
+}
+
+.blog-posts-main-heading {
+  font-family: "Nothing You Could Do";
+  font-size: 1.875rem;
+  font-weight: 500;
+  color: white;
+  text-align: left;
+}
+
+.blog-posts-container {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-posts-item {
+  min-width: 25%;
+  margin: 10px;
+  /* border: 1px solid white; */
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  flex: 1 1 300px;
+}
+
+.blog-posts-title {
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Mulish";
+  padding: 0.5rem;
+  text-align: center;
+}
+.blog-posts-title {}
+.blog-posts-description {}
+
+.blog-posts-img {
+  border: 3px solid white;
+  border-radius: 2rem;
+  width: 100%;
+  height: 100%;
+}
+
+.blog-posts-description {
+    font-family: "Mulish";
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding: 1.25rem;
+    /* margin-left: 2.5rem;
+    margin-right: 2.5rem; */
+    line-height: 1.75rem;
+    font-style: italic;
+}
+
+.blog-posts-name {
+  font-family: "Mulish";
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.5rem;
+  font-style: bold;
+  color: white;
+}
 
 
 /* Contact Us */
 
 .contact {
-  margin-top: 5rem;
 }
 
 .contact-footer {
@@ -670,7 +867,7 @@ form {
 .form-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   margin: 0.5rem;
 }
@@ -683,13 +880,15 @@ label {
 }
 
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+input[type="textarea"] {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 5px;
   border: solid black 0.1rem;
   font-family: "Mulish";
+
 }
 
 input[type="text"]:focus, input[type="email"]:focus {
@@ -754,7 +953,16 @@ button[type="submit"]:hover {
   .sub-heading {
     font-size: 1.5rem;
   }
+  .main-heading-about {
+    font-size: 2.25rem;
+  }
+  .sub-heading-about {
+    font-size: 1.5rem;
+  }
   .cta-1 {
+    font-size: 1rem;
+  }
+  .cta-2 {
     font-size: 1rem;
   }
   .abt-main-heading {
@@ -762,6 +970,9 @@ button[type="submit"]:hover {
   }
   .abt-sub-heading {
     font-size: 1.5rem;
+  }
+  .abt-sub-heading-2-2 {
+    font-size: 0.875rem;
   }
   .abt-main-heading-2 {
     font-size: 2.25rem;
@@ -772,7 +983,7 @@ button[type="submit"]:hover {
   .courses-main-heading {
     font-size: 2.25rem;
   }
-  .testimonials-main-heading-2 {
+  .testimonials-main-heading {
     font-size: 2.25rem;
   }
   .testimonial-description {
@@ -782,7 +993,23 @@ button[type="submit"]:hover {
     line-height: 1.75rem;
   }
   .testimonial-name {
-    font-family: "Mulish";
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  .blog-posts-main-heading {
+    font-size: 2.25rem;
+  }
+  .blog-posts-title {
+    font-size: 1.75rem;
+  }
+  .blog-posts-description {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1.25rem;
+    line-height: 1.75rem;
+  }
+  .blog-posts-name {
     font-size: 1rem;
     text-align: center;
     padding: 0.5rem;
@@ -842,7 +1069,17 @@ button[type="submit"]:hover {
   .sub-heading {
     font-size: 1.875rem;
   }
+
+  .main-heading-about {
+    font-size: 3rem;
+  }
+  .sub-heading-about {
+    font-size: 1.875rem;
+  }
   .cta-1 {
+    font-size: 1.125rem;
+  }
+  .cta-2 {
     font-size: 1.125rem;
   }
   .abt-main-heading {
@@ -850,6 +1087,9 @@ button[type="submit"]:hover {
   }
   .abt-sub-heading {
     font-size: 1.875rem;
+  }
+  .abt-sub-heading-2-2 {
+    font-size: 1rem;
   }
   .abt-main-heading-2 {
     font-size: 3rem;
@@ -870,6 +1110,18 @@ button[type="submit"]:hover {
     font-size: 1.25rem;
   }
   .testimonial-name {
+    font-size: 1.25rem;
+  }
+  .blog-posts-main-heading {
+    font-size: 1.875rem;
+  }
+  .blog-posts-title {
+    font-size: 1.875rem;
+  }
+  .blog-posts-description {
+    font-size: 1.25rem;
+  }
+  .blog-posts-name {
     font-size: 1.25rem;
   }
   .contact-item-first {
@@ -924,7 +1176,17 @@ button[type="submit"]:hover {
   .sub-heading {
     font-size:2.25rem;
   }
+
+  .main-heading-about {
+    font-size: 3.75rem;
+  }
+  .sub-heading-about {
+    font-size:2.25rem;
+  }
   .cta-1 {
+    font-size: 1.25rem;
+  }
+  .cta-2 {
     font-size: 1.25rem;
   }
   .abt-main-heading {
@@ -932,6 +1194,10 @@ button[type="submit"]:hover {
   }
   .abt-sub-heading {
     font-size:2rem;
+    line-height: 2rem;
+  }
+  .abt-sub-heading-2-2 {
+    font-size: 1.125rem;
     line-height: 2rem;
   }
   .abt-main-heading-2 {
@@ -950,6 +1216,18 @@ button[type="submit"]:hover {
     font-size: 1.5rem;
   }
   .testimonial-name {
+    font-size: 1.5rem;
+  }
+  .blog-posts-main-heading {
+    font-size: 3.75rem;
+  }
+  .blog-posts-title {
+    font-size: 2rem;
+  }
+  .blog-posts-description {
+    font-size: 1.5rem;
+  }
+  .blog-posts-name {
     font-size: 1.5rem;
   }
   .abt-main-sub-heading-2 {
